@@ -17,7 +17,7 @@ function App() {
           <Drawer.Screen name="Home" component={HomeScreen} />
           <Drawer.Screen name="Login" component={LoginScreen} />
           <Drawer.Screen name="Profile" component={ProfileScreen} />
-          <Drawer.Screen name="Protected" component={ProtectedScreen} />
+          <Drawer.Screen name="Admin" component={ProtectedScreen} />
         </Drawer.Navigator>
       </NavigationContainer>
     </AuthProvider>

@@ -16,3 +16,22 @@ Une application mobile développée avec React Native qui implémente un systèm
 - React Native
 - React Navigation
 - Context API pour la gestion de l'état d'authentification
+
+## 🚀 Installation
+
+1. Clonez ce dépôt :
+```bash
+git clone https://github.com/Diallo-alpha/native-login.git
+```
+
+## 📂 Structure du projet
+
+LoginAuthentication/
+├── components/
+│   ├── HomeScreen.js       # Écran d'accueil
+│   ├── LoginScreen.js      # Écran de connexion
+│   ├── ProfileScreen.js    # Écran de profil utilisateur
+│   ├── ProtectedScreen.js  # Écran accessible uniquement aux administrateurs
+│   └── AuthProvider.js     # Contexte de gestion de l'authentification
+├── App.js                  # Point d'entrée de l'application
+└── README.md               # Ce fichier
